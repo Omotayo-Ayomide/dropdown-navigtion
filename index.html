@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 50px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .content {
+            max-width: 50%;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 2rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+        }
+
+        .learn-more-btn {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .image-section {
+            position: relative;
+        }
+
+        .image-section img {
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        .shapes {
+            position: absolute;
+            top: 0;
+            left: 20px;
+            width: 400px;
+            height: 400px;
+            background-image: url('shapes.png');
+        }
+
+        .footer {
+            height: 1rem;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+            color: #999;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 50px;
+        }
+
+        a {
+            padding-left: 1.5rem;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        button {
+            height: 1.8rem;
+            width: 5rem;
+            border-radius: 0.5rem;
+        }
+
+    </style>
+</head>
+<body>
+    
+    </h2>
+    <header>
+        <nav>
+            <section class="nav-one">
+                <img src="./images/logo.svg" alt="">
+                <a href="">Features</a>
+                <a href="">Company</a>
+                <a href="">Careers</a>
+                <a href="">About</a>
+            </section>
+            <section>
+                <div>
+                    <a href="#">Login</a>
+                    <a href="#"><button>Register</button></a>
+                </div>
+            </section>
+        </nav>
+
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h1>Make<br>remote work</h1>
+            <p>Get your team in sync, no matter your location.<br>Streamline processes, create team rituals, and watch productivity soar.</p>
+            <a href="#" class="learn-more-btn">Learn more</a>
+            <div class="footer">
+                <img src="./images/client-databiz.svg" alt="">
+                <img src="./images/client-audiophile.svg" alt="">
+                <img src="./images/client-meet.svg" alt="">
+                <img src="./images/client-maker.svg" alt="">
+            </div>
+    
+        </div>
+
+        
+        <div class="image-section">
+            <img src="./images/image-hero-desktop.png" alt="Person with laptop">
+            <div class="shapes"></div>
+        </div>
+    </div>
+</body>
+</html>
